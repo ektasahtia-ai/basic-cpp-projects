@@ -1,19 +1,36 @@
-# Basic CPP Project
+# Basic CPP Projects
 
-A simple Student Management System built in C++. This project is designed for beginners who want to practice core C++ concepts such as structures, vectors, functions, loops, and conditional statements.
+A collection of beginner-friendly C++ console applications designed to help practice core programming concepts such as classes, vectors, functions, loops, conditionals, and file handling.
 
-## Features
+## Projects Included
 
+### 1. Student Management System
+
+A simple application to manage student records.
+
+#### Features
 - Add student records
 - Display all students
 - Search students by roll number
 - Delete student records
 - Menu-driven console interface
 
+### 2. Expense Tracker
+
+A console-based expense management application.
+
+#### Features
+- Add expenses
+- View all expenses
+- Calculate total expenses
+- Save expenses using file handling
+- Load saved expenses automatically
+
 ## Technologies Used
 
 - C++
 - STL (Standard Template Library)
+- File Handling
 
 ## Getting Started
 
@@ -24,24 +41,34 @@ A simple Student Management System built in C++. This project is designed for be
 ### Compilation
 
 ```bash
-g++ main.cpp -o student_management
+g++ main.cpp -o app
 ```
 
 ### Run
 
 ```bash
-./student_management
+./app
 ```
 
 ## Project Structure
 
 ```text
-Basic-CPP-Project/
-├── main.cpp
+Basic-CPP-Projects/
+├── Student-Management-System/
+│   ├── main.cpp
+│   └── README.md
+│
+├── Expense-Tracker/
+│   ├── main.cpp
+│   ├── expenses.txt
+│   └── README.md
+│
 └── README.md
 ```
 
 ## Sample Output
+
+### Student Management System
 
 ```text
 ===== Student Management System =====
@@ -54,25 +81,42 @@ Basic-CPP-Project/
 Enter Choice:
 ```
 
+### Expense Tracker
+
+```text
+====== Expense Tracker ======
+1. Add Expense
+2. View Expenses
+3. Show Total Expense
+4. Exit
+
+Enter Choice:
+```
+
 ## Concepts Covered
 
+- Classes and Objects
 - Structures
 - Vectors
 - Functions
 - Loops
 - Conditional Statements
+- File Handling
+- Menu-Driven Programming
 - Basic Data Management
 
 ## Future Enhancements
 
-- File Handling
 - Update Student Records
+- Expense Categories and Reports
+- Monthly Expense Summary
 - Sorting and Filtering
 - Better User Interface
+- Data Export Features
 
 ## Author
 
-Created as a beginner-friendly C++ project for learning and practice.
+Created as beginner-friendly C++ projects for learning, practice, and building programming fundamentals.
 
 ## License
 
