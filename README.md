@@ -1,6 +1,6 @@
 # Basic CPP Projects
 
-A collection of beginner-friendly C++ console applications designed to help practice core programming concepts such as classes, vectors, functions, loops, conditionals, and file handling.
+A collection of beginner-friendly C++ console applications designed to help practice core programming concepts such as classes, vectors, functions, loops, conditionals and file handling.
 
 ## Projects Included
 
